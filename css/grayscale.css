@@ -50,18 +50,18 @@
 
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
 
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
 
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
   }
 
   #mainNav .nav-link:active {
@@ -102,9 +102,9 @@
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  padding: 10rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/20180910_161315.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/20180910_161315.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -117,13 +117,15 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
   -webkit-background-clip: text;
+  padding: .5rem;
 }
 
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
 }
 
 @media (min-width: 768px) {
@@ -189,6 +191,86 @@
   margin-bottom: 5rem;
 }
 
+.resume-section {
+  padding: 5rem 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.resume-section .row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.resume-section .column {
+  border: 1px solid #606366;
+  border-radius: .25rem;
+  padding: 20px 10px;
+}
+
+.resume-item {
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 20px;
+}
+
+.resume-job {
+  font-weight: 700;
+  line-height: 1.2em;
+  width: 100%;
+}
+
+.resume-year {
+  color: #a7a7a7;
+  font-size: 16px;
+  text-align: right;
+}
+
+.resume-employer {
+  color: #64a19d;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.resume-description ul {
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.resume-description li {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 8px 0px;
+}
+
+.resume-description p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+
+  .resume-year,
+  .resume-employer,
+  .resume-description li,
+  .resume-description p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .resume-job {
+    font-size: 16px;
+    width: auto;
+  }
+
+  .work-experience {
+    margin: 0px 15px;
+  }
+}
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -232,8 +314,25 @@
   }
 }
 
+.tech-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.tech-section img {
+  height: 70px;
+  width: auto;
+  margin: 20px 10px;
+}
+
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 5rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/IMG_2502.JPG");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/IMG_2502.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .contact-section .card {
@@ -304,19 +403,11 @@ a:hover {
 }
 
 footer {
-  padding: 5rem 0;
-}
-
-.tech-section {
-  padding: 5rem 0;
-}
-
-.tech-section img {
-  height: 70px;
-  width: auto;
-  margin: 20px 10px;
+  height: 6rem;
 }
 
 .profile-picture {
-  height: 300px;
+  height: 200px;
+  border-radius: 50%;
+  filter: brightness(0.9);
 }
