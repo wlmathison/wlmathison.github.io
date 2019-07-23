@@ -8,7 +8,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>Billy Mathison | Nashville-Based Full-Stack Developer</title>
+  <link rel="icon" href="img/BM Logo.png" type="image/x-icon" />
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,10 +17,12 @@
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.min.css" rel="stylesheet">
+  <link href="css/grayscale.css" rel="stylesheet">
 
 </head>
 
@@ -28,8 +31,10 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Billy Mathison</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
@@ -39,10 +44,16 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#technologies">Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -52,10 +63,11 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
+
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        <img class="profile-picture" src="img/profile-picture.jpg" alt="Profile Picture">
+        <h1 class="mx-auto my-0">Billy Mathison</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-6">Full-Stack Software Developer</h2>
       </div>
     </div>
   </header>
@@ -65,43 +77,224 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          <h2 class="text-white mb-4">About</h2>
+          <p class="text-white-50">I am a problem solver.
+            <br><br>
+            I spent 16 years working in mental health, helping others solve their problems. Eventually I came to the
+            realization that while I loved helping clients through their problems, ultimately I had no control over the
+            final outcome.
+            <br><br>
+            What I love most about being a software developer is that I have the ability to solve any problem. I still
+            have the satisfaction of breaking something apart and trying to understand what the issue is. Now, I also
+            get to solve that problem. There is something so incredibly satisfying about not only being able to
+            understand the problem, but being able to create a solution and implement it.
+            <br><br>
+            Software development has allowed me to expand upon a part of my previous career that I enjoyed most
+            while
+            also providing the ability to directly solve a problem.</p>
         </div>
       </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="projects-section bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Resume</h2>
+      <div class="text-center mb-5">
+        <a href="img/Billy_Mathison_Resume.pdf" class="btn btn-primary" download>Download</a>
+      </div>
+
+      <div class="work-experience">
+        <h4>Work Experience</h4>
+        <div class="resume-item">
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-job">FULL-STACK SOFTWARE DEVELOPER</div>
+            <div class="resume-year">2019</div>
+          </div>
+          <div class="resume-employer">Nashville Software School</div>
+          <div class="row resume-description">
+            <div class="col-sm-6">
+              <ul>
+                <li>Source code version control with Git/GitHub</li>
+                <li>Project management/tracking with Github Projects & Issue Tracking</li>
+                <li>JavaScript fundamentals leveraging DRY, modular, readable code and reusable components</li>
+                <li>Built single-page applications with HTML, CSS, and JavaScript libraries including React</li>
+                <li>Task Automation with Grunt: Linting with ESLint</li>
+                <li>Module bundling with Browserify</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>Styled applications with CSS Frameworks Bootstrap and Reactstrap</li>
+                <li>Application design through white boarding dependencies and building ERD’s</li>
+                <li>Executed projects in an Agile environment, including ticketing, testing, daily stand-ups,
+                  pair-programming, and team retrospectives</li>
+                <li>Used C#/ASP.Net to develop a full-stack MVC web application with a RESTful API that enables users
+                  CRUD functionality for resources in a SQL database</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item">
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-job">OUTPATIENT THERAPIST</div>
+            <div class="resume-year">2017 - 2018</div>
+          </div>
+          <div class="resume-employer">Centerstone</div>
+          <div class="row resume-description">
+            <div class="col-sm-6">
+              <ul>
+                <li>Individual counseling</li>
+                <li>Group counseling for substance abuse</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>Conducted intake assessments</li>
+                <li>Participated in weekly team treatment meetings</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item">
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-job">PSYCHOLOGICAL ASSISTANT</div>
+            <div class="resume-year">2016 - 2017</div>
+          </div>
+          <div class="resume-employer">Kathryn Steele, Psy. D.</div>
+          <div class="row resume-description">
+            <div class="col-sm-6">
+              <ul>
+                <li>Administration and scoring of tests including: WAIS-IV, WMS-IV, DKEFS, MMPI-II RF, CVLT-II, MCMI-IV,
+                  RBANS Update</li>
+                <li>Technologies used included Kareo, Q-interactive, Q-global, E-fax</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li>Wrote Psychological and Neuropsychological reports</li>
+                <li>Insurance coding and billing</li>
+                <li>Accounts Receivable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item">
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-job">OFFICE MANAGER / BILLING SPECIALIST / COUNSELOR</div>
+            <div class="resume-year">2008 - 2017</div>
+          </div>
+          <div class="resume-employer">Roy Asta, MD</div>
+          <div class="row resume-description">
+            <div class="col-sm-6">
+              <p>(January 2010 – September 2017) Billing Specialist (Part-time)</p>
+              <ul>
+                <li>Medical billing and coding, patient billing, accounts receivable, account auditing, and
+                  credentialing</li>
+                <li>Technologies used included MS Word, Excel, and Therapist Helper</li>
+              </ul>
+              <br>
+              <p>(January 2010 – July 2015) Counselor (Part-time)</p>
+              <ul>
+                <li>Individual counseling</li>
+                <li>Intake of opiate dependent patients</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <p>(April 2008 – January 2010) Office Manager (Full-time)</p>
+              <ul>
+                <li>Managed daily activities of office including reception, medical billing, coding, patient billing,
+                  accounts receivable, medical authorizations, prior authorization for medications, credentialing,
+                  scheduling, purchasing, networking, maintenance of machinery, IT, and filing</li>
+                <li>Technologies used included MS Word, Excel, and Therapist Helper</li>
+                <li>Counseled patients over the phone during crisis</li>
+                <li>Medical transcription</li>
+                <li>In-depth training of new employees</li>
+                <li>Placate and/or control hostile patients as necessary</li>
+                <li>Familiar with medications frequently prescribed in the clinic</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item">
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-job">COUNSELOR</div>
+          </div>
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-employer">Scales Nutrition and Wellness Center</div>
+            <div class="resume-year">2012 - 2016</div>
+          </div>
+          <div class="row resume-description">
+            <div class="col-sm-6">
+              <ul>
+                <li>Group counseling for eating disorders and substance abuse</li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-employer">Behavioral Health Group</div>
+            <div class="resume-year">2012 - 2014</div>
+          </div>
+          <div class="row resume-description">
+            <div class="col-sm-6">
+              <ul>
+                <li>Substance abuse individual counseling</li>
+                <li>Group counseling</li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="resume-employer">Private Practice</div>
+            <div class="resume-year">2011 - 2015</div>
+          </div>
+          <div class="row resume-description">
+            <div class="col-sm-6">
+              <ul>
+                <li>Individual counseling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
     </div>
   </section>
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
     <div class="container">
-
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-          </div>
-        </div>
-      </div>
+      <h2 class="text-center mb-5">Projects</h2>
 
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <div class="text-center h-100 project">
+            <img class="img-fluid" src="img/Dram - Profile.PNG" alt="Dram application">
+          </div>
         </div>
         <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
+          <div class="bg-black text-center h-100 screenshot project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <h4 class="text-white">Dram</h4>
+                <p class="mb-0 text-white-50">For my front-end capstone at Nashville Software School I created Dram.
+                  Dram is a single page whiskey tasting application which allows users to participate in live whiskey
+                  tastings, view and share their reviews instantly, and provide searchable historical data. I built the
+                  application using React and used reactstrap for styling. Dram was tested at a live whiskey tasting in
+                  which 10 people utilized the application to participate in a blind tasting while saving their ratings
+                  and reviews.</p>
+                <br>
+                <a href="https://github.com/wlmathison/dram" target="_blank"><i class="fab fa-github"></i> View on
+                  GitHub</a>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -112,14 +305,25 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          <div class="text-center h-100 screenshot project">
+            <img class="img-fluid" src="img/Nutshell-laptop.png" alt="Nutshell application">
+          </div>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                <h4 class="text-white">Nutshell</h4>
+                <p class="mb-0 text-white-50">I built a project with 4 teammates that was a social media platform called
+                  Nutshell. This was our third group project at Nashville Software School and we used HTML, CSS,
+                  Javascript, CRUD functionality, API fetch calls, Flexbox, Visual Studio Code, Git, Github,
+                  http-server, json-server, Bootstrap, Grunt, and Browserify to build the website. During this project I
+                  learned to use more GitHub features including creating, reading, and completing issues, and card flow
+                  in the project session. I also gained experience using Browserify and Bootstrap in building a website.
+                </p>
+                <br>
+                <a href="https://github.com/wlmathison/nutshell" target="_blank"><i class="fab fa-github"></i> View on
+                  GitHub</a>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -130,86 +334,105 @@
     </div>
   </section>
 
-  <!-- Signup Section -->
-  <section id="signup" class="signup-section">
+
+  <!-- Technologies Section -->
+  <section id="technologies" class="tech-section text-center">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact-section bg-black">
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-            </div>
+        <div class="col-lg-10 mx-auto">
+          <h2 class="mb-4">Technologies</h2>
+          <div>
+            <img src="img/HTML.png" alt="HTML 5" title="HTML 5" />
+            <img src="img/CSS.png" alt="CSS" title="CSS" />
+            <img src="img/Javascript.png" alt="Javascript" title="Javascript" />
+            <img src="img/React.png" alt="React" title="React" />
+            <img src="img/CSharp.png" alt="C Sharp" title="C#" />
+            <img src="img/DOTNET CORE.png" alt="DotNet Core" title=".Net Core" />
+            <img src="img/SQL Server.png" alt="SQLServer" title="SQLServer" />
+          </div>
+          <div>
+            <img src="img/Reactstrap-Alt.png" alt="Reactstrap" title="Reactstrap" />
+            <img src="img/Bootstrap.png" alt="Bootsrap" title="Bootsrap" />
+            <img src="img/Azure Data Studio.jpg" alt="Azure Data Studio" title="Azure Data Studio" />
+            <img src="img/git.png" alt="Git" title="Git" />
+            <img src="img/Github.png" alt="Github" title="Github" />
+            <img src="img/Grunt.png" alt="Grunt" title="Grunt" />
+            <img src="img/JSON.png" alt="JSON" title="JSON" />
+          </div>
+          <div>
+            <img src="img/NPM.png" alt="Node Package Manager" title="Node Package Manager" />
+            <img src="img/Postman.png" alt="Postman" title="Postman" />
+            <img src="img/Browserify.png" alt="Browserify" title="Browserify" />
+            <img src="img/Visual Studio Code.png" alt="Visual Studio Code" title="Visual Studio Code" />
+            <img src="img/Visual Studio.png" alt="Visual Studio" title="Visual Studio" />
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0">
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-black">
+    <div class="container">
+      <h2 class="text-center text-white mb-5">Contact</h2>
+
+      <div class="row">
+
+        <div class="col-md-3 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-envelope text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
+                <a href="mailto:wlmathison.com">wlmathison@gmail.com</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0">
+        <div class="col-md-3 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
+              <div class="small text-black-50"><a href="tel:16159868257">(615) 986-8257</a></div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
+        <div class="col-md-3 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-linkedin text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">LinkedIn</h4>
+              <hr class="my-4">
+              <div class="small text-black-50"><a href="https://www.linkedin.com/in/billy-mathison/"
+                  target="_blank">linkedin.com/in/billy-mathison/</a></div>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-3 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fab fa-github text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">GitHub</h4>
+              <hr class="my-4">
+              <div class="small text-black-50"><a href="https://github.com/wlmathison"
+                  target="_blank">github.com/wlmathison</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; Your Website 2019
     </div>
   </footer>
 
